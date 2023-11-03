@@ -7,6 +7,16 @@
 
 ## Dependencies :
 ### Xampp Server ,Mysql database, 
+##  Website Screenshots.
+
+![Screenshot (47)](https://github.com/Jitendra-choudary/My-Blog-Website/assets/90691553/b3dee3c4-af60-43b1-b11c-4418305209c6)
+
+![Screenshot (46)](https://github.com/Jitendra-choudary/My-Blog-Website/assets/90691553/4f6a4e89-b219-478b-a44d-96c43c16f38d)
+
+![Screenshot (49)](https://github.com/Jitendra-choudary/My-Blog-Website/assets/90691553/db59ea7b-e717-48b1-81dd-20d23bfc9d40)
+
+![Screenshot (48)](https://github.com/Jitendra-choudary/My-Blog-Website/assets/90691553/3fa80b4d-fbe0-4737-9867-37b8e5b1ff8f)
+
 
 ## How to Install the Website in your system.
 ### 1. Install xampp server.
