@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Editor</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="editor.css">
+    <script src="editor.js"></script>
+    <script src="https://kit.fontawesome.com/96f29ec3fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="home.html"><img src="img/logo.png" class="logo" alt="image not found"></a>
+        
+        <!-- <span id="website">My-Blogging-Website</span> -->
+        <ul class="links-container">
+            <li class="link-item"><a href="home.html" class="link"><i class="fa-solid fa-house"></i>&nbspHome</a></li>
+        </ul>
+    </nav>
+
+    <form action="submit.php" method="POST" id="blogform" enctype="multipart/form-data" >
+        <div class="banner" id="banner">
+            <input type="file" accept="image/*" name="banner" id="banner-upload" hidden>
+            <label for="banner-upload" class="banner-upload-btn"><img src="img/upload.png" alt="upload banner"></label>
+        </div>
+    
+        <div class="blog">
+            <textarea type="text" class="title" name="title" placeholder="Blog title..."></textarea>
+            <textarea type="text" name="author" id="author" class="author" placeholder="author..."></textarea>
+            <textarea type="text" class="article" name="content" placeholder="Start writing here..."></textarea>
+        </div>
+    
+        <div class="blog-options">
+            <button id="publish-btn" class="btn dark publish-btn">publish</button>
+            </div>
+    </form>
+
+    <script src="editor.js"></script>
+
+</body>
+
+</html>
